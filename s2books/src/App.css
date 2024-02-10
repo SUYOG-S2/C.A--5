@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+  font-family: 'Rubik';
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background-image: red;
+  height: 150vh;
+  overflow-x: hidden;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  color: rgb(255, 42, 0);
+  margin-top: -0.5vw;
+  height: 5vw;
+  background-color: rgb(21, 18, 18);
+}
+
+#register{
+  height: 2.5vw; 
+  cursor: pointer;
+  background-color: rgb(0, 242, 255);
+  color: #000;
+  font-size: 1.5vw;
+  margin-right: 2vw;
+}
+
+#register:hover{
+  background-color: #ea9a3c;
+
+}
+
+input{
+  height: 10vw;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.searchbox{
+  height: 5vw;
+}
+
+#header{
+  margin-left: 3vw;
+  font-size: xx-large;
+}
+
+img{
+  width: 25vw;
+  height: 25vw;
+}
+
+.book1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 3vw;
+  margin-left: 1.5vw;
+  column-gap: 8vw;
+  row-gap: 4vw;
+}
+
+.book2{
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  height: max-content;
+  width: 26vw;
+  margin-top: 4vw;
+  background-color: rgb(40, 162, 105);
+  color: white;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.344);
+
+}
+
+.book2:hover{
+  box-shadow: 8px 8px 12px rgb(29, 149, 115);
+  cursor: pointer;
+}
+
+.book3{
+  font-size: 1.8vw;
+}
+
+input{
+  width: 45vw;
+  height: 10vw;
+  color: black;
+  background-color: white;
+}
+
+.book4{
+  display: flex;
+  flex-direction: row;
+  column-gap: 12vw;
+  font-weight: 250;
+  font-size: 1vw;
+}
+
+.X{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 200px;
+}
